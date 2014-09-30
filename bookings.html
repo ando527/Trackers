@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!--Made by inconspicuousstudios.com and kmbroadcasting.com-->
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="stylesheet.css">
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+</head>
+<body>
+<style>
+body {
+    <!--background: #333 url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/low_contrast_linen.png');
+-->
+
+	}
+#box {
+height: 15%;
+width: 10%;
+background-color: #b1b1b1;
+}
+#box:hover {
+background-color: #a1a1a1;
+}
+a {
+text-decoration: none;
+color: black;
+font-size: 30px;
+}
+a:visited {
+color: black;
+}
+a:link {
+color: black;
+}
+#tabl {
+
+font-size: 20px;
+max-width: 50%;
+
+}
+td {
+color: black; <!--#E8E8E8-->
+}
+#xouter{
+	height:100%;
+	width:100%;
+	display:table;
+	vertical-align:middle;
+}
+#xcontainer {
+	text-align: center;
+	position:relative;
+	vertical-align:middle;
+	display:table-cell;
+	
+}	
+#xinner {
+	width: 75%;
+		text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+blockquote {
+  font:  normal helvetica, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 3px solid darkblue;
+} 
+span {
+font: 30px;
+}
+</style>
+<center>
+<div id="blue">
+<img src="images/logo.png" />
+
+</center>
+<div id="top">
+<center>
+<a href = "index.html" id="box"><img src="images/logos/home.png" id="navico"/>Home</a>
+<a href = "facilities.html" id="box"><img src="images/logos/facilites.png" id="navico"/>Facilities</a>
+<a href = "rates.html" id="box"><img src="images/logos/rates.png" id="navico"/>Rates</a>
+<a href = "eatdrink.html" id="box"><img src="images/logos/food.png" id="navico"/>Food & Drink</a>
+<a href = "families.html" id="box"><img src="images/logos/families.png" id="navico"/>Families</a>
+<a href = "summer.html" id="box"><img src="images/logos/summer.png" id="navico"/>Summer</a>
+<a href = "bookings.html" id="box"><img src="images/logos/bookings.png" id="navico"/>Bookings</a>
+<a href = "where.html" id="box"><img src="images/logos/where.png" id="navico"/>Where to find us</a>
+</center>
+</div>
+</div>
+<div id="main" height="100%">
+
+<div height="100%">
+			<div id="tabl">
+    
+		<center>
+		<div class="button">
+<a href="https://www.thebookingbutton.com.au/properties/trackersmldirect">>Book Online Now<</a>
+</div>
+<div class="button">
+<a class="various" data-fancybox-type="iframe" href="mailto://info@trackers.com.au?subject=Inquiry&body=Enquiry%20type%3A%20(General%2FQuote)%0AName%3A%0AAddress%3A%0AState%20(if%20in%20AUS)%3A%0ACountry%3A%0AMobile%20Number%3A%0AEmail%3A%0A-----------------%0AFor%20quotation%20inquiries%3A%0ANumber%20of%20children%3A%0ANumber%20of%20adults%3A%20%0AAge(s)%20of%20children%3A%20%0AArrival%20Date%20(dd%2Fmm%2Fyyyy)%3A%0ADeparture%20Date%20(dd%2Fmm%2Fyyyy)%3A%0AAny%20other%20requirements%2C%20needs%20or%20special%20requests%3A%0A-----------------%0AFor%20general%20inquiries%3A%0AMessage%3A%0A%0A">>Get A Quote (requires mail client)<</a>
+</div>
+<h3>
+We are open throughout the winter season and in summer for group bookings.
+
+Please email to info@trackers.com.au with your requirements and we will get back to you straight away.
+
+Alternately call Brian on 03 57583346</h3>
+		</center>
+		
+</div>		
+		</div>
+
+
+
+<div id="footer">
+<div id="holder"></div>
+
+<center>
+<img src="images/track.png" />
+<img src = "images/win.jpg" />
+All rights reserved Trackers Mountain Lodge.
+<img src = "images/win.jpg" />
+
+</center>
+</div>
+
+<script>
+$(document).ready(function() {
+	$(".various").fancybox({
+		maxWidth	: 800,
+		maxHeight	: 600,
+		fitToView	: false,
+		width		: '70%',
+		height		: '70%',
+		autoSize	: false,
+		closeClick	: false,
+		openEffect	: 'elastic',
+		closeEffect	: 'fade'
+	});
+});
+</script>
+</body>
+</html>
